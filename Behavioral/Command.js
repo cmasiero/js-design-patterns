@@ -1,5 +1,7 @@
 /*
-	This is a behavioural design pattern that aims to encapsulate actions or operations as objects. This pattern allows loose coupling of systems and classes by separating the objects that request an operation or invoke a method from the ones that execute or process the actual implementation.
+	This is a behavioural design pattern that aims to encapsulate actions or operations as objects. 
+	This pattern allows loose coupling of systems and classes by separating the objects that request 
+	an operation or invoke a method from the ones that execute or process the actual implementation.
 */
 
 class SpecialMath {
@@ -35,3 +37,8 @@ module.exports = {
 	Command,
 	SpecialMath,
 };
+
+var sp = new SpecialMath(10);
+
+var c = new Command(sp);
+console.log('[]' + c.execute("cube"));

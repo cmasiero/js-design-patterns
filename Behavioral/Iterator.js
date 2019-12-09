@@ -38,3 +38,20 @@ module.exports = {
 	IteratorClass,
 	iteratorUsingGenerator,
 };
+// stage 1
+// stage 2
+// stage 3
+var a = "value 1";
+var b = { attr1: "value attr 1" };
+var c = "value 2";
+var d = "value 3";
+var array = [a, b, c, d];
+
+var it = new IteratorClass(array);
+console.log(...it);
+
+console.log('[************************]');
+
+for (let num of it) {
+	console.log(num); // 1, then 2, 3, 4, 5
+}
