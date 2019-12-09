@@ -1,5 +1,6 @@
 /*
-	It is a behavioural design pattern that encapsulates how a set of object interact with each other. It provides the central authority over a group of objects by promoting loose coupling by keeping objects from referring each other explicitly.
+	It is a behavioural design pattern that encapsulates how a set of object interact with each other. 
+	It provides the central authority over a group of objects by promoting loose coupling by keeping objects from referring each other explicitly.
 */
 
 class TrafficTower {

@@ -1,5 +1,7 @@
 /*
-	This is a behavioural design pattern is based on defining the skeleton of the algorithm or implementation of an operation, but deferring some steps to subclasses. It lets subclasses redefine certain steps of an algorithm without changing the algorithm's outward structure.
+	This is a behavioural design pattern is based on defining the skeleton of the algorithm or implementation of an operation, 
+	but deferring some steps to subclasses. 
+	It lets subclasses redefine certain steps of an algorithm without changing the algorithm's outward structure.
 */
 
 class Employee {
